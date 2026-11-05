@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">PSL token</title>
+  <defs>
+    <rect id="link" x="105" y="11" width="46" height="24" rx="12"/>
+    <path id="join" d="M111 23h34"/>
+    <mask id="weave" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="12" stroke-linecap="round">
+        <use href="#join" transform="rotate(15 128 128)"/>
+        <use href="#join" transform="rotate(45 128 128)"/>
+        <use href="#join" transform="rotate(75 128 128)"/>
+        <use href="#join" transform="rotate(105 128 128)"/>
+        <use href="#join" transform="rotate(135 128 128)"/>
+        <use href="#join" transform="rotate(165 128 128)"/>
+        <use href="#join" transform="rotate(195 128 128)"/>
+        <use href="#join" transform="rotate(225 128 128)"/>
+        <use href="#join" transform="rotate(255 128 128)"/>
+        <use href="#join" transform="rotate(285 128 128)"/>
+        <use href="#join" transform="rotate(315 128 128)"/>
+        <use href="#join" transform="rotate(345 128 128)"/>
+      </g>
+    </mask>
+  </defs>
+  <g fill="none" stroke="#D9A000" stroke-width="8" stroke-linecap="round">
+    <g mask="url(#weave)">
+      <use href="#link" transform="rotate(0 128 128)"/>
+      <use href="#link" transform="rotate(30 128 128)"/>
+      <use href="#link" transform="rotate(60 128 128)"/>
+      <use href="#link" transform="rotate(90 128 128)"/>
+      <use href="#link" transform="rotate(120 128 128)"/>
+      <use href="#link" transform="rotate(150 128 128)"/>
+      <use href="#link" transform="rotate(180 128 128)"/>
+      <use href="#link" transform="rotate(210 128 128)"/>
+      <use href="#link" transform="rotate(240 128 128)"/>
+      <use href="#link" transform="rotate(270 128 128)"/>
+      <use href="#link" transform="rotate(300 128 128)"/>
+      <use href="#link" transform="rotate(330 128 128)"/>
+    </g>
+    <use href="#join" transform="rotate(15 128 128)"/>
+    <use href="#join" transform="rotate(45 128 128)"/>
+    <use href="#join" transform="rotate(75 128 128)"/>
+    <use href="#join" transform="rotate(105 128 128)"/>
+    <use href="#join" transform="rotate(135 128 128)"/>
+    <use href="#join" transform="rotate(165 128 128)"/>
+    <use href="#join" transform="rotate(195 128 128)"/>
+    <use href="#join" transform="rotate(225 128 128)"/>
+    <use href="#join" transform="rotate(255 128 128)"/>
+    <use href="#join" transform="rotate(285 128 128)"/>
+    <use href="#join" transform="rotate(315 128 128)"/>
+    <use href="#join" transform="rotate(345 128 128)"/>
+  </g>
+  <!-- The symbol bounds (74, 89)?(182, 167) share the ring center (128, 128). -->
+  <path fill="#D9A000" d="M74 89h108v15h-24v63h-18v-63h-24v63H98v-63H74Z"/>
+</svg>

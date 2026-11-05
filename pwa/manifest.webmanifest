@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "Wallet",
+  "short_name": "Wallet",
+  "description": "SASEUL BLOCK CHAIN PSL Token 지갑",
+  "lang": "ko-KR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6fb",
+  "theme_color": "#f4f6fb",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "지갑 열기", "short_name": "열기", "url": "./", "icons": [{ "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }] }
+  ]
+}
